@@ -58,7 +58,7 @@ const NavBar = () => {
                 
                 :
                 <ul className="sm:flex gap-3 h-full items-center flex-col sm:flex-row">
-                  <button onClick={menu} className="text-white text-5xl font-bold relative left-2">x</button>
+                  <button onClick={menu} className="text-white text-5xl font-bold relative left-2 block sm:hidden">x</button>
                   <li>
                     <Link className="hover:text-slate-500 hover:underline transition duration-500 underline-offset-4" href={"/"}>Home</Link>
                   </li>
